@@ -1,0 +1,39 @@
+# Hele tal: integer(int)
+# 10, 20, 109, -10
+
+# Decimaltal: float
+# 3.14159, -29.23, 0292.9
+
+# Komplekse tal: imaginære tal
+# formen: z = a + b * i
+# fx.: 2 + 3i erstattes med j: 2 + 3j
+# husk at importere cmath-modulet, hvis du vil udregne komplekse tal
+a = 2 + 3j
+print(type(a))
+b = complex(3, 7) # 3 + 7j
+print(b)
+print(b.real) # reele tal
+print(b.imag) # imaginære tal
+
+# Tekst: strenge
+# '£(!  HeJ', "Hej haj", "2 + 5", """Frie newlines \n """
+
+
+# eksemplet med moms
+
+# moms
+# udregnes: pris eksl. moms * moms(1.25)
+print(50 * 1.25)
+
+# Variabler
+pris_uden_moms = 50
+moms = 1.25
+pris_med_moms = pris_uden_moms * moms
+print(pris_med_moms)
+
+# I Sverige er der forskel på moms. Fx. 25, 12 og 6 procent
+# https://www.verksamt.se/starta/vad-galler-i-din-bransch/e-handel/betalning-och-leverans/moms-i-sverige-och-utomlands
+pris = float(input("Pris(eksl.. moms): ")) # float typecaster strengen input
+moms = float(input("Moms: ")) # fx. er der tale om en bog(6%) eller køb af en fryser(25%)
+pris_med_moms = pris * moms
+print(pris_med_moms)
