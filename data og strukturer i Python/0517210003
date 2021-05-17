@@ -1,0 +1,24 @@
+hojde = 150
+print (hojde)
+
+bredde = hojde / 2
+print (bredde)
+
+areal = hojde * bredde
+print (areal)
+
+
+# Temperatur-konvertering
+# Celcius til Fahrenheit: 1.8 * celcius + 32 eller 9/5 * celcius + 32
+# regnehierakiet tager sig fint af udregningen
+celcius = 5
+fahrenheit = 1.8 * celcius + 32
+print(fahrenheit)
+
+# Fahrenheit til Celcius
+# (Fahrenheit - 32) * 0.5556(5/9)
+# husk regnehierakiet
+fahrenheit = 41
+celcius = (fahrenheit - 32) * 0.5556
+print(celcius) # brug evt. round(celcius, 1)
+
