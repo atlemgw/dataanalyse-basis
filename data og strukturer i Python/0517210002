@@ -13,6 +13,10 @@ print("Resultatet er", str(resultat)) # kommaet giver luft
 # formatering med format-funktionen
 print("Resultatet er {}".format(resultat)) # <- her bruges ingen typecasting
 print("Resultatet af {0} + {1} er {2}".format(a, b, resultat)) #<- tuborgklammerne angiver variablerne fra format-funktionen
+# alternativt
+print("Resultatet af {0} ** {0} er {1}".format(2, 2 ** 4)) #<- tuborgklammerne angiver variablerne fra format-funktionen
+
+
 
 # f-strengsformatering ses pt. som standarden af formatering i Python
 print(f"Resultatet af {a} + {b} er {resultat}") #<- indhenter variablerne
@@ -40,4 +44,5 @@ print(x)
 
 
 # Brug IKKE %-formatering
+# - det er groft sagt et levn fra Python 2
 print("%d + %d = %d" % (a, b, resultat))
