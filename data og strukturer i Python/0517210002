@@ -1,0 +1,35 @@
+# koden fra eksempler
+
+a = int(input("Indtast det første tal "))
+b = int(input("Indtast det andet tal "))
+
+resultat = a + b
+
+print("Resultatet er " + str(resultat)) #<- luft i strengens ende
+
+
+# formatering med ,(komma)
+print("Resultatet er", str(resultat)) # kommaet giver luft
+# formatering med format-funktionen
+print("Resultatet er {}".format(resultat)) # <- her bruges ingen typecasting
+print("Resultatet af {0} + {1} er {2}".format(a, b, resultat)) #<- tuborgklammerne angiver variablerne fra format-funktionen
+
+# f-strengsformatering ses pt. som standarden af formatering i Python
+print(f"Resultatet af {a} + {b} er {resultat}") #<- indhenter variablerne
+print(f"Resultatet af {a} + {b} er {a + b}") # udregner a + b
+# sidstnævnte eksempel giver os altså en masse fleksibilitet, hvis nu vi ønsker andre udregner
+print(f"Resultatet af {a} * {b} er {a * b}") # udregner a * b
+print(f"Resultatet af {a} / {b} er {a / b}") # udregner a / b
+print(f"Resultatet af {a} - {b} er {a - b}") # udregner a - b
+print(f"Resultatet af {a} ** {b} er {a ** b}") # udregner a ** b
+print(f"Resultatet af {a} // {b} er {a // b}") # udregner a // b
+print(f"Resultatet af {a} % {b} er {a % b}") # udregner a % b
+print(f"Resultatet af {a} > {b} er {a > b}") # udregner a > b
+print(f"Resultatet af {a} < {b} er {a < b}") # udregner a < b
+
+# reducer antal af decimaler med :.2f
+print(f"Resultatet af {a} / {b} er {a / b:.2f}") # udregner a + b
+
+# reducer antal af decimaler med round-funktionen
+# round(a / b, 2) hvor 2 er antallet af decimaler
+print(f"Resultatet af {a} + {b} er {round(a / b, 2)}") # udregner a + b
