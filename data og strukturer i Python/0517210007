@@ -1,0 +1,32 @@
+tal_liste = [1, 2, 3, 4]
+print(type(tal_liste))
+
+n = 5
+print(type(n))
+
+start = True
+print(type(start))
+
+navn = "Atle"
+print(type(navn))
+
+
+# dir - hvis man er usikker
+tal_liste = [1, 2, 3, 4]
+print(dir(tal_liste))
+resultat = tal_liste.__add__([5, 6, 7])
+print(resultat)
+
+x = 5
+print(id(x))
+
+y = 10
+print(id(y))
+
+z = y
+print(id(z))
+
+print("x:", x)
+print("y", y)
+
+
