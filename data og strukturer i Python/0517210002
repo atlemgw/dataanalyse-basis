@@ -37,3 +37,7 @@ print(f"Resultatet af {a} + {b} er {round(a / b, 2)}") # udregner a + b
 # eval-funktionen - kan generelt ikke anbefales, da den er for vagt formuleret
 x = eval(input("Udregn: ")) #<- skriv så mange tal du vil udregne
 print(x)
+
+
+# Brug IKKE %-formatering
+print("%d + %d = %d" % (a, b, resultat))
