@@ -33,3 +33,7 @@ print(f"Resultatet af {a} / {b} er {a / b:.2f}") # udregner a + b
 # reducer antal af decimaler med round-funktionen
 # round(a / b, 2) hvor 2 er antallet af decimaler
 print(f"Resultatet af {a} + {b} er {round(a / b, 2)}") # udregner a + b
+
+# eval-funktionen - kan generelt ikke anbefales, da den er for vagt formuleret
+x = eval(input("Udregn: ")) #<- skriv så mange tal du vil udregne
+print(x)
