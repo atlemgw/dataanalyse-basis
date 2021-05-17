@@ -1,0 +1,21 @@
+# if statements
+
+if 120 == 1 * 2 * 3 * 4 * 5:
+    print("120 = 1 * 2 * 3 * 4 * 5")
+
+if 120 == 4 * 5 * 6:
+    print("120 = 4 * 5 * 6")
+
+navn = "Fedtmule"
+if navn == "Fedtmule2":
+    print(f"Hej {navn}")
+else:
+    print(f"Du hedder ikke {navn}")
+
+
+if 120 == 1 * 2 * 3 * 4 * 5 and 120 == 4 * 5 * 6:
+    print("Det er rigtigt!")
+
+
+if 120 == 1 * 2 * 3 * 4 * 5 or 120 == 4 / 8:
+    print("Det er rigtigt!")
