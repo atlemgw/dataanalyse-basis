@@ -12,13 +12,24 @@ for i in range(1, 11, 2):
 for i in range(2, 11, 2):
     print(i)
 
+for i in range(10, 0, -1):
+    print(i, end = ', ')
+
 
 # while loops
 start = True
+
+print() # luft
 
 # while-loopet starter kun hvis start er True
 while start:
     print("Velkommen til while-loopet")
     break # break af loopet
-    
-    
+
+
+# euklids algoritmer udregner højeste delelige tal
+# https://da.wikipedia.org/wiki/Euklids_algoritme
+a, b = 1071, 462
+while b:
+    a, b = b, a % b
+print(a)
