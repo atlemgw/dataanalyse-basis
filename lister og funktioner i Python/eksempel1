@@ -1,0 +1,48 @@
+# opgave 3.1
+# Lav et program, som udskriver de 10 største byer i rækkefølge.
+print("\tLav et program, som udskriver de 10 største byer i rækkefølge.")
+byer = ["København", "Århus", "Odense", "Aalborg", "Esbjerg", "Randers", "Kolding", "Horsens", "Vejle", "Roskilde"]
+print(f"{byer}\n Længde: {len(byer)}")
+
+# Opgave 3.2
+# Lav et program, som udskriver de 5 største byer
+print("\n\tLav et program, som udskriver de 5 største byer")
+print(f"{byer[:5]}\n Længde: {len(byer[:5])}")
+
+# Opgave 3.3
+# Lav et program, som udskriver hver tredje by på listen
+print("\n\tLav et program, som udskriver hver tredje by på listen")
+print(f"{byer[::3]}\n Længde: {len(byer[::3])}")
+
+
+# Opgave 3.4
+# Lav et program som udskriver de sidste 5 byer på listen
+print("\n\tLav et program som udskriver de sidste 5 byer på listen")
+print(f"{byer[-5:]}\n Længde: {len(byer[-5:])}")
+
+# Opgave 3.5
+# Lav et program, som udskriver hver by på listen og dens position.
+# Python for Data Analysis, kapitel 3, side 59 - 60
+print("\n\tLav et program, som udskriver hver by på listen og dens position.")
+mapping = {}
+for i, v in enumerate(byer):
+    mapping[v] = i
+print(mapping)
+
+# Opgave 3.6
+# Erstat København med Hovedstadsområdet.
+print("\n\tErstat København med Hovedstadsområdet.")
+byer[0] = "Hovedstadsområdet"
+print(f"{byer}\n Længde: {len(byer)}")
+
+# Opgave 3.7
+# Fjern Randers fra listen
+print("\n\tFjern Randers fra listen.")
+byer.remove("Randers")
+print(f"{byer}\n Længde: {len(byer)}")
+
+# Opgave 3.8
+# Tilføj Herning og Silkeborg til listen
+print("\n\tTilføj Herning og Silkeborg til listen.")
+byer.extend(["Herning", "Silkeborg"])
+print(f"{byer}\n Længde: {len(byer)}")
