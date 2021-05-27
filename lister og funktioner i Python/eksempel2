@@ -1,0 +1,36 @@
+# opgave 3.9
+# Lav en funktion, der finder det største af to tal og returnerer det
+print("\nopgave 3.09")
+def maxtal(a, b):
+    if a > b:
+        print(a)
+    elif a == b:
+        print("a er det samme som b")
+    else:
+        print(b)
+maxtal(393, 39)
+
+# opgave 3.10
+# Lav en funktion, der som udskriver teksten Hej foran et navn, der gives med som parameter til funktionen
+print("\nopgave 3.10")
+def hejnavn(navn):
+    print(f"Hej {navn}!")
+
+hejnavn("Atle")
+
+# opgave 3.11
+# Lav en funktion, som udskriver hver andet bogstav i en tekst
+print("\nopgave 3.11")
+tekst = "Hej, dette er min lille tekst"
+for i in tekst[::2]:
+    print(i, end= '')
+
+print()
+
+def nth(str, interval = 2):
+    for i in str[::interval]:
+        print(i, end = '')
+
+nth(tekst, 3)
+
+
