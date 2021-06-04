@@ -29,6 +29,11 @@ for i, v in enumerate(byer):
     mapping[v] = i
 print(mapping)
 
+# ELLER
+for i in range(len(byer)):
+    print (i, end = " ")
+    print (byer[i])
+
 # Opgave 3.6
 # Erstat København med Hovedstadsområdet.
 print("\n\tErstat København med Hovedstadsområdet.")
