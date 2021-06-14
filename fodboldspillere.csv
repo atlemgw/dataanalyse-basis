@@ -1,0 +1,27 @@
+﻿nummer;Fornavn;Efternavn;Klub;Født;Position;Kampe;Debut
+1;Kasper;Schmeichel;Leicester City FC;11.05.1986;Målmand;63;02.06.2013
+22;Frederik;Rønnow;FC Schalke 04;04.08.1992;Målmand;8;31.08.2016
+16;Jonas;Lössl;FC Midtjylland;01.02.1989;Mållmand;1;29.03.2016
+6;Andreas;Christensen;Chelsea FC;10.04.1996;Forsvar;40;08.06.2015
+3;Jannik;Vestergaard;Southampton FC;03.08.1992;Forsvar;21;14.08.2013
+17;Jens Stryger;Larsen;Udinese Calcio;21.02.1991;Forsvar;34;31.08.2016
+2;Joachim;Andersen;Fulham FC;31.05.1996;Forsvar;4;15.10.2019
+5;Joakim;Mæhle;Atalanta;20.05.1997;Forsvar;8;05.09.2020
+13;Mathias;"""Zanka"" Jørgensen";FC København;23.04.1990;Forsvar;34;19.11.2008
+26;Nicolai;Boilesen;FC København;16.02.1992;Forsvar;18;10.08.2011
+4;Simon;Kjær;AC Milan;26.03.1989;Forsvar;105;06.06.2009
+25;Anders;Christensen;Malmø FF;08.06.1990;Midtbane;3;18.11.2014
+10;Christian;Eriksen;Internazionale FC;14.02.1992;Midtbane;106;03.03.2010
+15;Christian;Nørgaard;Brentford FC;10.03.1994;Midtbane;4;08.09.2020
+18;Daniel;Wass;Valencia;31.05.1989;Midtbane;28;09.02.2011
+24;Mathias;Jensen;Brentford FC;01.01.1996;Midtbane;5;07.10.2020
+14;Mikkel;Damsgaard;Sampdoria;03.07.2000;Midtbane;2;11.11.2020
+23;Piere-Emile;Højbjerg;Tottenham Hotspur FC;05.08.1995;Midtbane;40;28.05.2014
+8;Thomas;Delaney;BV Borrusia 09 Dortmund;03.09.1991;Midtbane;52;05.10.2013
+21;Andreas;Cornelius;Parma;16.03.1993;Angriber;27;08.09.2012
+11;Andreas Skov;Olsen;Bologna;29.12.1999;Angriber;5;07.10.2020
+19;Jonas;Wind;FC København;07.02.1999;Angriber;6;07.10.2020
+12;Kasper;Dolberg;OGC Nice;06.10.1997;Angriber;24;11.11.2016
+9;Martin;Braithwaite;FC Barcelona;05.06.1991;Angriber;48;05.06.2013
+7;Robert;Skov;TSG 1899 Hoffenheim;0000-00-00;Angriber;9;05.06.2013
+20;Yussuf;Poulsen;RB Leipzig;15.06.1996;Angriber;52;11.10.2014
